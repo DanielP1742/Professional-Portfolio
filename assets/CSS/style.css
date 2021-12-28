@@ -1,0 +1,42 @@
+
+/*
+Color #Pallete:
+Main: #7A93AC
+Dark: #1F3447
+Light: #E6EBEF
+Secondary Light: #F2F5F7
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #7A93AC;
+    padding: 10px 35px; 
+    display: flex;
+    flex-wrap: warp;
+    justify-content: space-between;
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 46;
+    color: #1F3447;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px 15px;
+}
+
+header a {
+    color: #E6EBEF;
+    padding: 20px 35px 0px 35px;
+    font-weight: bold;
+
+}
