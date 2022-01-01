@@ -3,17 +3,12 @@
     --dark-color: #1f3447;
     --light-color: #E6EBEF;
 }
-/*
-Color #Pallete:
-main: #7A93AC
-dark: #1F3447
-Light: #E6EBEF
-Secondary Light: #F2F5F7
-*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Header */
 
 header {
     background-color: var(--main-color);
@@ -47,6 +42,8 @@ header a {
     font-weight: bold;
 }
 
+/*Hero Banner and Profile */
+
 .hero {
     display: flex;
 }
@@ -61,7 +58,7 @@ header a {
     left: 50px;
 }
 
-
+/*About Me Styles*/
 
 
 .About-Me-Section {
@@ -76,7 +73,7 @@ header a {
 
 }
 
-.About-Me-Text {  
+#About-Me-Text {  
     color:var(--dark-color)
     
 
@@ -87,19 +84,28 @@ header a {
 
 }
 
-.My-Projects-Section {
-    display: flex;
+/*My Projects Styles*/
 
+
+.My-Projects-Section{
+    display: flex;
 }
 
+
 .My-Projects-Section h2 {
+
     font-size: 62;
     color: var(--main-color);
     margin-left: 15px;
     padding:  0px 40px 0px 40px;
 }
 
+#Run-Buddy {
+    border: 1px Red;
+}
 
+
+/*Contact Info Styles */
 
 .Contact-Info-Section {
     display: flex;
@@ -119,11 +125,6 @@ header a {
 }
 
 .Contact-Info-Section ul  {
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    list-style: none;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
