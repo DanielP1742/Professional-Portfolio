@@ -48,10 +48,6 @@ header a {
 }
 
 .hero {
-    display: inline;
-}
-
-.hero {
     display: flex;
 }
 
@@ -65,19 +61,57 @@ header a {
     left: 50px;
 }
 
+
+
+
 .About-Me-Section {
     display: flex;
 }
 
+.About-Me-div {
+}
+
  .About-Me-Section h2 {
-    font-size: 52;
+    font-size: 62;
     color: var(--main-color);
     margin-left: 15px;
     flex: 2 30%;
+    padding:  0px 40px 0px 40px;
+
+}
+
+.About-Me-Text {  
+    color:var(--dark-color)
+
 }
 
 .About-Me-Section p {
-    color:var(--dark-color)
-    margin-left: 15px
-    
+
+}
+
+.My-Projects-Section {
+
+}
+
+
+.Contact-Info-Section {
+    display: flex;
+}
+
+.Contact-Info {
+    display: flex;
+}
+
+
+.Contact-Info h2 {
+    font-size: 52;
+    color:var(--main-color)
+}
+
+.Contact-Info-Section nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: flex-end;
 }
