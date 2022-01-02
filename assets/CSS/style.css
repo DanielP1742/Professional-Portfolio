@@ -88,11 +88,31 @@ header a {
 
 .My-Projects-Section{
     display: flex;
+    align-items: stretch;
+
 }
 
 #Run-Buddy {
-    border: 1px solid red;
+    margin-top: 1em;
+    margin-bottom: 2em; 
+    border: 3px solid var(--main-color);
 }
+
+#Run-Buddy:hover {
+    color: var(--light-color);
+}
+
+#A-challenge {
+    margin-bottom: 2em;
+    border: 3px solid var(--main-color);
+
+}
+
+#A-challenge:hover {
+    color: var(--light-color);
+
+}
+
 
 /*Contact Info Styles */
 
