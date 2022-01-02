@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 /* Header */
@@ -44,33 +45,31 @@ header a {
 
 /*Hero Banner and Profile */
 
-.hero {
-    display: flex;
+.banner {
+    /* nothing yet */
 }
 
-.banner {
-    height: 400px;
+.hero {
+    position:relative;
 }
 
 .profile {
-    position: absolute;
-    bottom: 225px;
-    left: 50px;
+    position: absolute; 
+    padding: 10px 15px 10px 15px; 
 }
 
 /*About Me Styles*/
-
 
 .About-Me-Section {
     display: flex;
 }
 
- .About-Me-Section h2 {
-    font-size: 62;
+.Section-Header h2{
     color: var(--main-color);
     margin-left: 50px;
     padding:  0px 40px 0px 40px;
-
+    text-align: right;
+    width: 6em;
 }
 
 #About-Me-Text {  
@@ -91,19 +90,9 @@ header a {
     display: flex;
 }
 
-
-.My-Projects-Section h2 {
-
-    font-size: 62;
-    color: var(--main-color);
-    margin-left: 15px;
-    padding:  0px 40px 0px 40px;
-}
-
 #Run-Buddy {
-    border: 1px Red;
+    border: 1px solid red;
 }
-
 
 /*Contact Info Styles */
 
@@ -122,6 +111,7 @@ header a {
     color: var(--light-color);
     margin-left: 15px;
     padding:  0px 40px 0px 40px;
+    
 }
 
 .Contact-Info-Section ul  {
