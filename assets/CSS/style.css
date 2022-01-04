@@ -15,7 +15,7 @@ header {
     background-color: var(--main-color);
     padding: 5px 20px; 
     display: flex;
-    flex-wrap: warp;
+    flex-wrap: wrap;
     justify-content: space-between;
     
 }
@@ -30,7 +30,8 @@ header h1 {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-basis: 700px;
+    justify-content: auto;
     align-items: flex-end;
     list-style: none;
     padding: 0px 15px 0px 15px;
@@ -39,15 +40,12 @@ header nav ul {
 
 header a {
     color: var(--light-color);
-    padding: 20px 35px 0px 35px;
+    padding: 20px 50px 0px 50px;
     font-weight: bold;
+    display: flex;
 }
 
 /*Hero Banner and Profile */
-
-.banner {
-    /* nothing yet */
-}
 
 .hero {
     position:relative;
@@ -62,6 +60,8 @@ header a {
 
 .About-Me-Section {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .Section-Header h2{
@@ -73,13 +73,10 @@ header a {
 }
 
 #About-Me-Text {  
-    color:var(--dark-color)
-    
-
-}
-
-.About-Me-Section p {
-    color: var(--dark-color);
+    display: flex;
+    flex-basis: 700px;
+    color:var(--dark-color);
+    padding: 10px 15px 10px 15px;
 
 }
 
@@ -88,43 +85,44 @@ header a {
 
 .My-Projects-Section{
     display: flex;
-    align-items: stretch;
+    flex-wrap: wrap;
+    align-items: stretch; 
+}
+.My-Projects-Section-Tiles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 700px;
+};
 
+.My-Projects-Section-Tiles a {
+    margin-bottom: 20px;
 }
 
 #Run-Buddy {
+    display: block;
     margin-top: 1em;
-    margin-bottom: 2em; 
+    margin-bottom: 20px; 
     border: 3px solid var(--main-color);
 }
 
-#Run-Buddy:hover {
-    color: var(--light-color);
-}
-
 #A-challenge {
+    display: block;
     margin-bottom: 2em;
     border: 3px solid var(--main-color);
 
 }
 
-#A-challenge:hover {
-    color: var(--light-color);
-
-}
-
-
 /*Contact Info Styles */
 
 .Contact-Info-Section {
     display: flex;
+    flex-wrap: wrap;
     background-color: var(--main-color);
 }
 
-.Contact-Info {
+#Contact-Info {
     display: flex;
 }
-
 
 .Contact-Info-Section h2 {
     font-size: 62;
@@ -147,5 +145,5 @@ header a {
     color: var(--light-color);
     font-size: 20px;
     padding: 0px 15px 0px 15px;
-
+    flex-wrap: wrap;
 }
