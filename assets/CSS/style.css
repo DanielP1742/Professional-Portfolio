@@ -88,6 +88,15 @@ header a {
     flex-wrap: wrap;
     align-items: stretch; 
 }
+
+.My-Projects-Section h2{
+    color: var(--main-color);
+    margin-left: 70px;
+    padding:  0px 40px 0px 40px;
+    text-align: right;
+    width: 6em;
+}
+
 .My-Projects-Section-Tiles {
     display: flex;
     flex-wrap: wrap;
@@ -102,15 +111,46 @@ header a {
     display: block;
     margin-top: 1em;
     margin-bottom: 20px; 
-    border: 3px solid var(--main-color);
+    margin-right: 10px;
+    border: 5px solid var(--main-color);
+    width: 550px;
+    height: 225px;
 }
 
 #A-challenge {
     display: block;
     margin-bottom: 2em;
-    border: 3px solid var(--main-color);
+    border: 5px solid var(--main-color);
+    width: 500px;
+    height: 200px;
 
 }
+
+#Robot-gladiators {
+    display: block;
+    margin-bottom: 2em;
+    border: 5px solid var(--main-color);
+    width: 500px;
+    height: 200px;
+}
+
+#Run-Buddy:hover{
+    opacity: .5;
+    border: 7px solid var(--light-color)
+}
+
+#A-challenge:hover{
+    opacity: .5;
+    border: 7px solid var(--light-color)
+
+}
+
+#Robot-gladiators:hover {
+    opacity: .5;
+    border: 7px solid var(--light-color)
+
+}
+
 
 /*Contact Info Styles */
 
@@ -146,4 +186,22 @@ header a {
     font-size: 20px;
     padding: 0px 15px 0px 15px;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 993px){
+
+    #Run-Buddy {
+        width: 500px;
+        height: 200px;
+    }
+    #A-challenge {
+            width: 500px;
+            height: 200px;
+        }
+    
+    #Robot-gladiators {
+        width: 500px;
+        height: 200px;
+    }
+
 }
