@@ -20,6 +20,6 @@ This project was a great from scratch project to create. I'm proud that I learne
 
 ## Here are some images of the site:
 
-![Professional-Portfolio](.assets/Images/Screen_Shot_1.png "Home Page")
+<img src=".assets/Images/Screen_Shot_1.png">
 
-![Resizeable-to-other-applications](.Class-Challanges/Professional-Portfolio/assets/Images/Screen_Shot_2.png "Image Resized")
+<img src=".assets/Images/Screen_Shot_2.png">
