@@ -20,5 +20,5 @@ This project was a great from scratch project to create. I'm proud that I learne
 
 ## Here are some images of the site:
 
-! [Professional Portfolio](assets/Images/Screen Shot 1.png)
-! [Resizeable to other applications](assets/Images/Screen Shot 2.png)
+![Professional-Portfolio](.assets/Images/Screen_Shot_1.png)
+![Resizeable-to-other-applications](.assets/Images/Screen_Shot_2.png)
