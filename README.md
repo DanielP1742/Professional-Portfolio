@@ -20,6 +20,6 @@ This project was a great from scratch project to create. I'm proud that I learne
 
 ## Here are some images of the site:
 
-<img src=".assets/Images/Screen_Shot_1.png">
+<img src="./assets/Images/Screen_Shot_1.png">
 
-<img src=".assets/Images/Screen_Shot_2.png">
+<img src="./assets/Images/Screen_Shot_2.png">
