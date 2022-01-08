@@ -18,6 +18,10 @@ This site uses some flex elements which makes it functional for smaller screen s
 ## Final thoughts are reflections:
 This project was a great from scratch project to create. I'm proud that I learned a few things along the way.  Adding Media Queries and Pseudo Classes was a great last touch.  For future improvements I would love to spend more time with flex getting the page to display a bit differently on smaller sizes.  But over all proud of the work considering I've only been coding for about 4 weeks.  
 
+## Here is a link to the site:
+
+<a href="https://danielp1742.github.io/Professional-Portfolio/"> Professional Portfolio</a>
+
 ## Here are some images of the site:
 
 <img src="./assets/Images/Screen_Shot_1.png">
