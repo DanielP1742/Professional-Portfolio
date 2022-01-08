@@ -1,7 +1,7 @@
 ### Professional-Portfolio Project
 
 ## The Why of this Project:
-This poject was about creating a Professional Protofolio for myself. It this project there was no starter code.  This is all code I have personally written.  It could be used to show potential employeers a gallery of our completed projects. The follow are things the site does:
+This project was about creating a Professional Protofolio for myself. It this project there was no starter code.  This is all code I have personally written.  It could be used to show potential employeers a gallery of our completed projects. The follow are things the site does:
 
 ## Display my info:
 The site has a recent photo of me, plus a short paragraph about me as a developer.  Also, has links to my email, GitHub and Linkin.  Also my facebook profile is hidden in my face.
@@ -20,5 +20,6 @@ This project was a great from scratch project to create. I'm proud that I learne
 
 ## Here are some images of the site:
 
-![Professional-Portfolio](.assets/Images/Screen_Shot_1.png)
-![Resizeable-to-other-applications](.assets/Images/Screen_Shot_2.png)
+![Professional-Portfolio](.assets/Images/Screen_Shot_1.png "Home Page")
+
+![Resizeable-to-other-applications](.Class-Challanges/Professional-Portfolio/assets/Images/Screen_Shot_2.png "Image Resized")
