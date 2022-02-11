@@ -107,7 +107,7 @@ header a {
     margin-bottom: 20px;
 }
 
-#Run-Buddy {
+#Destination-Briefing {
     display: block;
     margin-top: 1em;
     margin-bottom: 20px; 
@@ -115,6 +115,16 @@ header a {
     border: 5px solid var(--main-color);
     width: 550px;
     height: 225px;
+}
+
+#Run-Buddy {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 20px; 
+    margin-right: 10px;
+    border: 5px solid var(--main-color);
+    width: 500px;
+    height: 200px;
 }
 
 #A-challenge {
@@ -133,6 +143,12 @@ header a {
     width: 500px;
     height: 200px;
 }
+
+#Destination-Briefing:hover{
+    opacity: .5;
+    border: 7px solid var(--light-color)
+
+} 
 
 #Run-Buddy:hover{
     opacity: .5;
